@@ -31,7 +31,16 @@ An ALB is a traffic controller that automatically distributes incoming web traff
 A Security Group acts as a stateful, host-level firewall for EC2 instances, allowing you to set explicit rules to control both inbound and outbound network traffic.
 
 ### 6. Target Group
-A Target Group acts as a routing destination for the load balancer. Instead of sending traffic directly to individual servers, the load balancer sends traffic to the target group, which then intelligently distributes the requests across the registered instances.
+A Target Group acts as a routing destination for the load balancer. Instead of sending traffic directly to individual servers, the load balancer sends traffic to the target group, which then 
+intelligently distributes the requests across the registered instances.
+
+## Project Objectives
+- Build highly available web architecture
+- Learn AWS load balancing
+- Configure health checks
+- Distribute traffic across multiple servers
+- Understand fault tolerance concepts
+- Practice production style architecture
 
 ## Architecture Diagram
 <img width="1221" height="994" alt="image" src="https://github.com/user-attachments/assets/ef8bd118-33ac-4f8f-84ad-b72648c36a89" />
@@ -95,6 +104,25 @@ sudo umount /data
 <img width="1920" height="1080" alt="ALB-Web-2-output" src="https://github.com/user-attachments/assets/5e594083-7c28-4475-b037-3c3e5817ab76" />
 - Load Balancer Overview
 <img width="1920" height="1080" alt="ALB-3_resource" src="https://github.com/user-attachments/assets/a66d3241-0816-4f14-bbbe-88c0e182bdf4" />
+
+## Skill Learned
+### AWS Skill
+- EC2 Deployment
+- ALB Configuration
+- Target Group
+- Health Checks
+- Security Groups
+- EBS Management
+
+### Cloud Concepts
+- High Availabilty
+- Fault Tolerance
+- Traffic Distribution
+- Load balancing
+- Scalability
+
+## Skills Demonstrated:
+AWS EC2, ALB, EBS, IAM, Linux, Nginx, High Availability, Load Balancing, Cloud Architecture
 
 ## Conclusion
 This project shows how to stop a website from crashing if a server breaks down. By using an AWS Load Balancer to share the work among EC2 instances, the website stays fast and online. Even if one computer completely stops working, users won't notice a thing because their traffic is automatically sent to a working one. This keeps the website up and running smoothly at all times.
